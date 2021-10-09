@@ -46,9 +46,7 @@ if ($.isNode()) {
                 continue
             }
             authorCodeList = [
-                '',
-                '',
-                '',
+                'https://raw.githubusercontent.com/taiwan02/kaika/main/rush_lzdz1_yijia.js',
             ]
             $.bean = 0;
             $.ADID = getUUID('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', 1);
