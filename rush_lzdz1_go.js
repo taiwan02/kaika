@@ -1,7 +1,7 @@
 /*
 大牌联合  狂欢抢先GO
 
-https://lzdz1-isv.isvjcloud.com/dingzhi/dz/openCard/activity?activityId=dz20211013skcnurdk11jhdue84752hp&shareUuid=
+https://lzdz1-isv.isvjcloud.com/dingzhi/dz/openCard/activity?activityId=dz20211013skcnurdk11jhdue84752hp&shareUuid=c665dedb53934c3783bbc53ef5ad30a4
 */
 const $ = new Env("大牌联合  狂欢抢先GO");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
@@ -31,7 +31,7 @@ if ($.isNode()) {
     authorCodeList = await getAuthorCodeList('https://gitee.com/fatelight/dongge/raw/master/dongge/lzdz1_go.json')
     if(authorCodeList === '404: Not Found'){
         authorCodeList = [
-            '',
+            'c665dedb53934c3783bbc53ef5ad30a4',
         ]
     }
 
