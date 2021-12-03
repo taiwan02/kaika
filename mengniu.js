@@ -40,7 +40,7 @@ if ($.isNode()) {
                 }
                 continue
             }
-            authorCodeList = ['']
+            authorCodeList = ['ef988996067b493cabe9e2a0ed86980d']
             $.bean = 0;
             $.ADID = getUUID('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', 1);
             $.UUID = getUUID('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
