@@ -5,10 +5,10 @@
 每天收益不知道
 100火源=1元
 
-项目注册地址:http://yuanhuo.yuanhuojisuban.com/#/?code=Y9f8X0
+项目注册地址:http://yuanhuo.yuanhuojisuban.com/#/?code=WD2NO3
 
 记得走下邀请码哦,谢谢大佬们
-qq3265520839
+WD2NO3
 必要变量:
 
 soy_yhxq_Authorization
