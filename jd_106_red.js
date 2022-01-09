@@ -1,11 +1,7 @@
 /*
 2022年年货节京享红包活动🧧
-量子内部返利
-全局改返利
-下面是返利链接
+入口
 https://u.jd.com/YwI0QAP
-https://u.jd.com/YwI0QAP
-跳转到app 可查看助力情况
 */
 
 let rebateCodes = ''
