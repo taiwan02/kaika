@@ -2,7 +2,7 @@
 年货节火力值
 脚本兼容: Node.js
 返利变量：jd_rebateCode，若需要返利给自己，请自己修改环境变量
-SCLyQi4换成自己的返利
+YwI0QAP换成自己的返利
 需要助力[火力值]的账号pin值
 如：【京东账号2】pin
 pin1换成对应的pin值 用,分开
@@ -26,7 +26,7 @@ cron "0 0,8,20,22 * * *" script-path=https://raw.githubusercontent.com/KingRan/J
 const $ = new Env('年货节火力值');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
-let rebateCodes = 'SKib2Yf'
+let rebateCodes = 'YwI0QAP'
 let rebatePin = ''
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [],
@@ -140,9 +140,9 @@ let nowTime = new Date().getTime() + new Date().getTimezoneOffset()*60*1000 + 8*
   }
   if(Object.getOwnPropertyNames($.shareCodeArr).length > 0 && $.shareCodeArr["updateTime"] != pinUpdateTime) $.setdata($.shareCodeArr,'jd_JDnhjRed')
   if(message){
-    $.msg($.name, ``, `${message}\nhttps://u.jd.com/SKib2Yf\n\n跳转到app 可查看助力情况`);
+    $.msg($.name, ``, `${message}\nhttps://u.jd.com/YwI0QAP\n\n跳转到app 可查看助力情况`);
     if ($.isNode()){
-      // await notify.sendNotify(`${$.name}`, `${message}\n\nhttps://u.jd.com/SKib2Yf\n跳转到app 可查看助力情况`);
+      // await notify.sendNotify(`${$.name}`, `${message}\n\nhttps://u.jd.com/YwI0QAP\n跳转到app 可查看助力情况`);
     }
   }
 })()
